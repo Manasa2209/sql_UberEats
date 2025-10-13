@@ -67,6 +67,17 @@ Select * FROM orders
 Select * FROM restaurants
 Select * FROM riders
 ```
+## Data Import
+
+## Data Cleaning and Handling Null Values
+
+Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:
+
+```sql
+UPDATE orders
+SET total_amount = COALESCE(total_amount, 0)
+```
+
 ## Advaned Business Problems ##
 
 ### Q.1: Write a query to find the top 5 most frequently ordered dishes by customer called "Arjun Mehta" in the last 1 year.
