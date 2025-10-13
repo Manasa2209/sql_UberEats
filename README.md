@@ -69,7 +69,7 @@ Select * FROM riders
 ```
 ## Data Import
 
-## Data Cleaning and Handling Null Values
+### Data Cleaning and Handling Null Values
 
 Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:
 
