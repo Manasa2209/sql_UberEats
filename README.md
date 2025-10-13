@@ -78,7 +78,7 @@ UPDATE orders
 SET total_amount = COALESCE(total_amount, 0)
 ```
 
-## Advaned Business Problems ##
+## Advanced Business Problems ##
 
 ### Q.1: Write a query to find the top 5 most frequently ordered dishes by customer called "Arjun Mehta" in the last 1 year.
 
